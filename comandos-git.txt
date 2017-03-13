@@ -1,0 +1,204 @@
+1  ls
+    
+2  cd Desktop/
+    
+3  cd ..
+    
+4  ls
+    
+5  mkdir Software
+    
+6  ls Software/
+    
+7  cd Software/
+    
+8  git config --global http.proxy http://proxy.lcc.uma.es:3128
+    --Item 1
+9  git config user.name NPB38
+   
+10  git init
+   
+11  git config user.name NPB38
+   
+12  git config user.email nachopb38@hotmail.com
+   
+13  git clone https://github.com/NPB38/umafactorial.git
+   
+14  ls
+   
+15  pwd
+   
+16  cd umafactorial/
+   
+17  touch factorial.java
+   					  --Item 2
+18  vi factorial.java 
+   
+19  vi factorial.java 
+   
+20  vi factorial.java 
+   
+21  vi factorial.java 
+   
+22  vi factorial.java 
+   
+23  ls -l
+   
+24  ls
+   
+25  touch factorial.java 
+   
+26  vi factorial.java 
+   
+27  vim factorial.java 
+   
+28  vi factorial.java 
+   
+29  vi factorial.java 
+   
+30  pwd
+   
+31  ls
+   
+32  vi factorial.java 
+   
+33  git add factorial.java
+ 					  --Item 3  
+34  git status
+   
+35  git commit -m "implementacion inicial"
+   
+36  git config --global user.name NPB38
+   
+37  git config --global user.email nachopb38@hotmail.com
+   
+38  git commit -m "implementacion inicial"
+   
+39  git status
+   
+40  git add factorial.java
+   
+41  git status
+   
+42  git commit -m "refactorizacion"
+   
+43  git push origin master
+   
+44  git status
+   
+45  git push origin master
+   
+46  git log
+   
+47  git push origin master
+   
+48  git status
+   
+49  git checkout -b recursivo
+   
+50  ls 
+   
+51  git statu
+   
+52  git status
+   
+53* 
+   
+54  git commit -m "implementacion recursiva"
+   
+55  git log
+   
+56  git log
+   
+57  git checkout master
+   
+58  ls
+   
+59  git status
+   
+60  git add factorial.java
+   
+61  git commit -m "correcion numeros negativos"
+   
+62  git push origin master
+   
+63  git checkout recursivo
+   
+64  git push origin recursivo
+   
+65  git checkout master
+   
+66  git checkout recursivo
+   
+67  git status
+   
+68  git add factorial.java
+   
+69  git commit -m "optimizacion"
+   
+70  git status
+   
+71  git checkout master
+   
+72  git merge recursivo
+   
+73  git log
+   
+74  git checkout -b refacIO
+   
+75  git status
+   
+76  git add  factorial.java
+   
+77  git commit -m "refactorizacion de metodo de entrada"
+   
+78  git status
+   
+79  git status
+   
+80  git add factorial.java
+   
+81  git status
+   
+82  git status
+   
+83  git stash
+   
+84  git checkout master
+   
+85  git status
+   
+86  git add factorial.java
+   
+87  git commit -m "cambio de long a BingInteger"
+   
+88  git push origin master
+   
+89  git checkout refacIO
+   
+90  pwd
+   
+91  git status
+   
+92  git log
+   
+93  git stash pop
+   
+94  git status
+   
+95  git add factorial.java
+   
+96  git commit -m "refactorizacion de metodo de salida"
+   
+97  git checkout master
+   
+98  git merge refacIO
+   
+99  git status
+  
+100  git add factorial.java
+  
+101  git commit -m "mezcla de rama recIO"
+  
+102  git push origin master
+ 
